@@ -1,0 +1,616 @@
+/* Initia box model set up*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Section 1 is the base container of the first page*/
+.name p{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.section-1{
+  margin-top: 0;
+  height: 110vh;
+  background: linear-gradient(110deg, #ffffff 50%, #F6B400 50%);
+}
+
+/* Styling the header section */
+.header{
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.header p{
+  margin-top: 22%;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.text-2{
+  color: #F6B400;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  margin-right: 35px;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 270px;
+}
+
+/* styling links*/
+
+.nav li{
+  list-style: none;
+  font-size: 20px;
+  display: inline;
+  margin-right: 70px;
+}
+
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: px;
+
+}
+
+.nav a:hover{
+  color: whitesmoke;
+  background-color: #f2f2f2;
+}
+
+.cart{
+  margin-right: 60px;
+  margin-top: 30px;
+}
+.cart .icon{
+  color: black;
+  font-size: 30px;
+  display: block;
+}
+
+/* Page one content */
+
+.container{
+  margin-left: 20px;
+  height: 100vh;
+}
+
+.row{
+ align-content: center;
+}
+
+.column{
+  width: 50%;
+  float: left;
+}
+
+.row::after{
+  clear: both;
+  display: table;
+}
+
+.content-a{
+  margin-left: 50px;
+  margin-top: 25%;
+}
+
+.content-a h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content-a button{
+  background-color: #F6B400;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  margin-top:  60px;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 30px;
+  font-size: large;
+}
+
+.content-a button:hover{
+  background-color: thistle;
+  color: black;
+  text-shadow: #F6B400;
+}
+.content-b{
+  margin-right: 200px
+  ;
+}
+
+.content-b img{
+  width: auto;
+  height: 90vh;
+}
+
+/*Page 2 styling*/
+
+.container-2{
+  margin: 0;
+  height: 100vh;
+  background: #f2f2f2;
+}
+
+.column-three-quater{
+  width: 33.33%;
+  float: left;
+}
+
+.invisible-cards{
+  width: 90%;
+  border: 1px solid rgb(109, 51, 121);
+  padding: 90px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 40px;
+}
+
+.invisible-cards-1{
+  width: 90%;
+  border: 1px solid rgb(109, 51, 121);
+  padding: 90px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 18%;
+  margin-left: 40px;
+}
+
+.invisible-cards-2{
+  width: 90%;
+  border: 1px solid rgb(109, 51, 121);
+  padding: 90px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 40px;
+}
+.invisible-cards h2{
+  color: #473a13;
+}
+
+.invisible-cards-1 h2{
+  color: #473a13;
+}
+
+.invisible-cards-2 h2{
+  color: #473a13;
+}
+
+.card-image{
+  margin-bottom: 20px;
+}
+
+.card-image h1{
+  font-size: 70px;
+  color: #F6B400;
+}
+
+
+/* Styling for page 3*/
+.container-3{
+  margin:0;
+  height: 170vh;
+}
+
+.header-1{
+  text-align: center;
+  margin-top: 120px;
+}
+
+.menu-1{
+  color: orange;
+}
+
+.underline{
+  width: 70px;
+  display: inline-block;
+  border-top: 4px solid violet;
+}
+
+.item-card{
+  display: flex;
+  flex-direction: column;
+  max-height: auto;
+  overflow: hidden;
+  margin-left: 20px;
+  background-color: wheat;
+  max-width: 33.33%;
+  justify-content: center;
+
+}
+
+.menu-container{
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.menu-card{
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+  max-width: 320px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.menu-card img{
+max-width: 100%;
+margin-top: 0px;
+height: 150px;
+}
+
+.menu-content{
+  padding: 30px
+}
+
+.info{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.info h3{
+  display: inline-block;
+  margin-left: 5px;
+}
+.info button{
+  display: inline-block;
+ margin-left: 180px;
+ font-size: 30px;
+ color: gray;
+ background: honeydew;
+ border-radius: 5px;
+ padding: 2px;
+ border: none;
+ background-color: #E1EBE6;
+
+}
+
+.info-b{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.info-b h3{
+  display: inline-block;
+ margin-right: 60px;
+}
+
+.info-b p{
+  display: inline-block;
+  background: #f2f2f2;
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.info-b span{
+  display: inline-block;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.info-b span:hover{
+  background: seagreen;
+  color: azure;
+  cursor: progress;
+}
+
+
+
+/* designing the ribbon */
+
+.ribbon{
+  width: 160px;
+  top: 0;
+  right: -20px;
+  position: absolute;
+}
+
+.ribbon span{
+  width: 225px;
+  background: orange;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -15px;
+  transform: rotate(45deg);
+  text-align: center;
+  color: whitesmoke;
+}
+
+.menu-card-1{
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+  max-width: 320px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.menu-card-1 img{
+  max-width: 100%;
+  height: 150px;
+  }
+
+/* Page 4 styling*/
+.container-6{
+  height: 100vh;
+  padding: 15px 10px;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.pg4-content{
+  margin-top: 30%;
+  margin-left: 200px;
+}
+
+
+.pg4-content p{
+  margin-top: 35px;
+  margin-left: 3px;
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: 200;
+  font-family: monospace;
+}
+.big-deker{
+  margin-top: 15px;
+  color: orange;
+}
+.arrow{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.arrow .dot{
+  display: inline-block;
+  width: 10px;
+  background-color: orangered;
+  border-radius: 1px solid black;
+  height: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.arrow .dot-1{
+  display: inline-block;
+  width: 10px;
+  background-color: orangered;
+  border-radius: 1px solid black;
+  height: 10px;
+  border-radius: 20px;
+  margin-left: 10px; 
+}
+
+/* Stacked images styling*/
+
+.stacked-container{
+  padding: 10px 5px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.image-stack-1{
+  margin-right: 30px;
+  z-index: 0;
+}
+.image-stack-1 img{
+  max-height: 65vh;
+  max-width: 90%;
+}
+.image-stack-2{
+  z-index: 2;
+  top: 10px;
+  position: absolute;
+  margin-top: 130px;
+  margin-right: 100px;
+
+}
+
+.image-stack-2 img{
+  max-height: 65vh;
+  max-width: 90%;
+}
+
+
+/* page 5 */
+
+.container-7{
+  height: 100vh;
+  background-color: #F6B400;
+}
+
+
+.content-container{
+  margin-top: 120px;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.content-container p{
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+.downloads{
+  margin-top: 200x;
+}
+
+.downloads .google-logo{
+  height: 100px;
+}
+
+.downloads .apple-logo{
+  height: 100px;
+}
+
+/* Desiging the images */
+
+
+.phone-container{
+  margin-top: 150px;
+}
+
+.phone-2{
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.phone-1{
+  border-radius: 20px;
+}
+
+
+/* information pages and site maps*/
+
+.container-8{
+  padding: 16px;
+  height: 200px;
+  background: #f2f2f2;
+}
+
+.column-4{
+  width: 25%;
+  float: left;
+}
+
+
+.logo-content{
+  display: flex;
+  margin-top: 50px;
+}
+.logo-content h3{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.logo-content span{
+  color: #F6B400;
+}
+
+.logo-content img{
+  height: 50px;
+}
+
+.logo-content h3{
+  margin-top: 20px;
+}
+.sitemap{
+  margin-top: 20px;
+
+}
+
+.sitemap-btn{
+  display: block;
+  border: none;
+  background: white;
+  margin-bottom: 5px;
+}
+
+.sitemap-btn:hover{
+  cursor: pointer;
+  border-bottom: 3px solid yellow;
+}
+
+/* Form */
+.newsletter{ 
+  margin-top: 20px; 
+  margin-left: 100px;
+}
+.newsletter button{
+    position: absolute;
+    font-size: 20px;
+    border: none;
+    line-height: 32px;
+    background: #F6B400;
+
+}
+input:focus{
+    border-right: none;
+}
+
+.newsletter input{
+    width: 400px;
+    line-height: 30px;
+    border-radius: 5px;
+    border-right: none;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+form{
+    margin-top: 50px;
+}
+
+/* footer*/
+footer{
+  margin: 0;
+
+}
+
+.copyrights{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.handles{
+  margin-top: 20px;
+  text-align: center;
+}
+.handles span{
+  display: inline-block;
+  margin-left: 3px;
+}
+.handles span:hover{
+  color: rgb(113, 113, 224);
+}
+.designer{
+  margin-top: 20px;
+}
+
+.designer-content p{
+  margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
