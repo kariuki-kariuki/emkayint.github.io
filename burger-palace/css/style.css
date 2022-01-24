@@ -5,6 +5,12 @@
   margin: 0;
 }
 
+.wrapper{
+  margin:0;
+  padding:5px;
+  
+}
+
 /* Section 1 is the base container of the first page*/
 .name p{
   font-family: 'Oleo Script Swash Caps', cursive;
